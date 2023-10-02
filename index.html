@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
   <title>Drawer</title>
 </head>
 
@@ -14,14 +15,13 @@
     <h3>sortear um número</h3>
     <label>
       <b>entre</b>
-      <input type="number">
+      <input class="input-min" type="number" min="0" max="999999999">
     </label>
     <label>
       <b>e</b>
-      <input type="number">
+      <input class="input-max" type="number" min="0" max="999999999">
     </label>
-
-    <button>sortear.</button>
+    <button class="button-draw">sortear.</button>
   </div>
 
 </body>
